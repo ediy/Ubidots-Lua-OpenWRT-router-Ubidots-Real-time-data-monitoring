@@ -9,16 +9,16 @@ There is no need to run a specific installation program, just put the file to yo
 ####Execute ubidots-Lua from command-line interpreter
 
 **This will post a value of 100 to your Ubidots Variable:**
-* root@OpenWrt:~# /usr/lib/lua/ubidots.lua -post api_key deviceID 100
+* /usr/lib/lua/ubidots.lua -post api_key deviceID 100
 
 **Retrieve last value from Ubidots Variable:**
-* root@OpenWrt:~# /usr/lib/lua/ubidots.lua -get api_key deviceID
+* /usr/lib/lua/ubidots.lua -get api_key deviceID
 
 **Retrieve all data from Ubidots Variable:**
-* root@OpenWrt:~# /usr/lib/lua/ubidots.lua -get api_key deviceID all
+* /usr/lib/lua/ubidots.lua -get api_key deviceID all
 
 **Retrieve last value from Ubidots Variable and save it to router /tmp/data.txt directory:**
-* root@OpenWrt:~# /usr/lib/lua/ubidots.lua -get api_key deviceID last data.txt
+* /usr/lib/lua/ubidots.lua -get api_key deviceID last data.txt
 
 
 You can read more about this project on my website. http://ediy.com.my/index.php/projects/item/121-ubidots-lua-openwrt-router-ubidots-real-time-data-monitoring
