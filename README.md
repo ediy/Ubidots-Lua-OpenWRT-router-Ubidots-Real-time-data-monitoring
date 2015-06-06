@@ -21,5 +21,5 @@ There is no need to run a specific installation program, just put the file to yo
 * root@OpenWrt:~# /usr/lib/lua/ubidots.lua -get api_key deviceID last data.txt
 
 
-You can read more about this project on my website. http://ediy.com.my/index.php/projects/item/117-arduino-based-electronic-queuing-system
+You can read more about this project on my website. http://ediy.com.my/index.php/projects/item/121-ubidots-lua-openwrt-router-ubidots-real-time-data-monitoring
 
