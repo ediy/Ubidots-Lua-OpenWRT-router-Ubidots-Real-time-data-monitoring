@@ -20,7 +20,7 @@ my_data=`/usr/lib/lua/ubidots.lua "-get" $api_key $deviceID "all"`
 echo $my_data
 
 #retrive last value from Ubidots & save to \tmp\data1.txt       
-#/usr/lib/lua/ubidots.lua "-get" $api_key $deviceID "" "data1.txt"
+/usr/lib/lua/ubidots.lua "-get" $api_key $deviceID "" "data1.txt"
 
 #retrive all data from Ubidots & save to \tmp\data2.txt       
-#/usr/lib/lua/ubidots.lua "-get" $api_key $deviceID "all" "data2.txt"
+/usr/lib/lua/ubidots.lua "-get" $api_key $deviceID "all" "data2.txt"
