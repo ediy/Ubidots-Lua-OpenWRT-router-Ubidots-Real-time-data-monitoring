@@ -10,16 +10,13 @@ echo "Token: "$my_token
 #post data to Ubidots
 bash -c "/usr/lib/lua/ubidots.lua -post "$api_key" "$deviceID" "$value
 
-#retrive last value from Ubidots
+#retrieve last value from Ubidots
 my_data=$(bash -c "/usr/lib/lua/ubidots.lua -get "$api_key" "$deviceID)
 echo $my_data
 
-#retrive all data from Ubidots
+#retrieve all data from Ubidots
 my_data=$(bash -c "/usr/lib/lua/ubidots.lua -get "$api_key" "$deviceID" all")
 echo $my_data
 
-#retrive last value from Ubidots & save to a file
+#retrieve last value from Ubidots & save to router /tmp/data.txt
 my_data=$(bash -c "/usr/lib/lua/ubidots.lua -get "$api_key" "$deviceID" all data.txt")
-#data is saved in router /tmp/data.txt
-
-
