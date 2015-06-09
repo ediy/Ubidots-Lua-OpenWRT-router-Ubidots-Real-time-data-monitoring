@@ -1,7 +1,7 @@
 #!/bin/bash
 api_key="your api key here"
 deviceID="your deviceID here"
-value=10 -- post this value
+value=10 #post this value
 
 #obtain a token
 my_token=$(bash -c "/usr/lib/lua/ubidots.lua -token "$api_key)
