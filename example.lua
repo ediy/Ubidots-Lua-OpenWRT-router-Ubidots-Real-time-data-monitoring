@@ -11,14 +11,13 @@ print("Token: " .. my_token)
 --post data to Ubidots
 post_value(deviceID, value)
 
---retrive last value from Ubidots
+--retrieve last value from Ubidots
 get_value(deviceID)
 print(my_data)
 
---retrive all data from Ubidots
+--retrieve all data from Ubidots
 get_value(deviceID, "all")
 print(my_data)
 
---retrive last value from Ubidots & save to a file
+--retrieve last value from Ubidots & save to router /tmp/data.txt
 get_value(deviceID, "", "data.txt")
---data is saved in router /tmp/data.txt
