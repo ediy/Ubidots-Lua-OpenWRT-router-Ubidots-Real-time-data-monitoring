@@ -1,7 +1,7 @@
 ### Ubidots-Lua: OpenWRT router + Ubidots = Real time data monitoring
 Ubidots is a cloud service to store and analyze sensor data in real-time.
 
-Ubidots-Lua is written in Lua, it allows you to post data to or get data from Ubidots with minimum coding required. Ubidots-Lua should run on any OpenWRT wireless router, and it is able to execute from console, Bash script or as a Lua function call.
+Ubidots-Lua is written in Lua, it allows you to post data to or get data from Ubidots with minimum coding required. Ubidots-Lua should run on any OpenWRT wireless router, and it is able to execute from console, Shell script or as a Lua function call.
 
 ####Installing Ubidots-Lua
 There is no need to run a specific installation program, just put the file to your wireless router (/usr/lib/lua directory), giving execution permission and run it.
